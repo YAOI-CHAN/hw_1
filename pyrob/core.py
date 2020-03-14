@@ -157,7 +157,7 @@ def wall_is_on_the_left():
 
 @log_invocation
 @public
-def wall_is_on_the_right():
+def wall_is_on_the_right() -> object:
     return is_blocked(None, None, WALL_RIGHT)
 
 @log_invocation
